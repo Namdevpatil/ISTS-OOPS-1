@@ -1,0 +1,72 @@
+Java is an Object Oriented programming.
+
+Object: is an real time entity, means when we create an object based on class, which will get
+        memory allocation in RAM(Heap) memory.
+        
+Question: How we will create an Object in Java?
+
+Answer: using 'new' keyword/operator
+
+for example,
+
+
+class Employee
+{
+
+
+}
+
+Employee employee = new Employee();
+
+Note: 'new' keyword will create an object/instance based on class, and allocates a new memory location. 
+====
+
+---------------------------------------------------------------------------------------
+
+about java class?
+
+class: it a blueprint/template of a java Object.
+
+Question: what are the properties there in class?
+
+Answer: class contains fields/variables, constructors, blocks, behavior/methods and inner classes..etc.
+
+	for example,
+
+		public class Employee
+		{		
+			//fields
+			private int employeeId;
+			private String employeeName;
+			private String employeeRole;
+			
+			//constructor
+			public Employee()
+			{
+			
+			}
+			
+			//methods
+			public void getEmployeeData()
+			{
+				//call fields here and write logic			
+			}
+			
+			//inner classes
+			class Address
+			{
+				//inner class also has the properties like outer class.
+			}
+					
+		}
+
+
+Class properties:
+
+1. Fields/variables:
+
+In a class we have two different types of fields/variables
+
+	=> non-static/instance fields/variables: 
+	=> static/class fields/variables
+
